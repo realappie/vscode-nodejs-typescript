@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-typescript-project",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=development nodemon bin/index.js",
+    "debug": "NODE_ENV=development nodemon --inspect bin/index.js",
+    "build": "tsc --sourceMap false"
+  },
+  "author": "Abdel El-medny",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^12.7.1",
+    "nodemon": "^1.18.6",
+    "tslint": "^5.12.0",
+    "typescript": "^3.1.6"
+  }
+}
